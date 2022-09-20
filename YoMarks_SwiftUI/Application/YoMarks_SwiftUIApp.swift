@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let screenSize = UIScreen.main.bounds
+
 @main
 struct YoMarks_SwiftUIApp: App {
     var body: some Scene {

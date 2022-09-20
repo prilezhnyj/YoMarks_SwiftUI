@@ -18,6 +18,7 @@
 		EC0A025528D9AAAD00750F8F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC0A025128D9AAAD00750F8F /* Poppins-SemiBold.ttf */; };
 		EC0A025828D9B7C000750F8F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A025728D9B7C000750F8F /* ButtonView.swift */; };
 		EC0A025A28D9BAB700750F8F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A025928D9BAB700750F8F /* SignUpView.swift */; };
+		EC0A025C28D9D8FE00750F8F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A025B28D9D8FE00750F8F /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +32,10 @@
 		EC0A024F28D9AAAD00750F8F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		EC0A025028D9AAAD00750F8F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		EC0A025128D9AAAD00750F8F /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		EC0A025628D9AB7000750F8F /* YoMarks-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "YoMarks-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EC0A025628D9AB7000750F8F /* YoMarks-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoMarks-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EC0A025728D9B7C000750F8F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		EC0A025928D9BAB700750F8F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EC0A025B28D9D8FE00750F8F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				EC0A023A28D89AAB00750F8F /* YoMarks_SwiftUI */,
+				EC0A025628D9AB7000750F8F /* YoMarks-SwiftUI-Info.plist */,
 				EC0A023928D89AAB00750F8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,12 +69,11 @@
 		EC0A023A28D89AAB00750F8F /* YoMarks_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				EC0A025628D9AB7000750F8F /* YoMarks-SwiftUI-Info.plist */,
-				EC0A024D28D9AA6600750F8F /* Font */,
+				EC0A025E28D9DCBE00750F8F /* Application */,
 				EC0A024928D8BC1C00750F8F /* View */,
-				EC0A023B28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift */,
-				EC0A023F28D89AAC00750F8F /* Assets.xcassets */,
+				EC0A025D28D9DBC300750F8F /* Resources */,
 				EC0A024128D89AAC00750F8F /* Preview Content */,
+				EC0A023F28D89AAC00750F8F /* Assets.xcassets */,
 			);
 			path = YoMarks_SwiftUI;
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 			children = (
 				EC0A024B28D8BC2F00750F8F /* TextView.swift */,
 				EC0A025728D9B7C000750F8F /* ButtonView.swift */,
+				EC0A025B28D9D8FE00750F8F /* CustomTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -112,6 +115,22 @@
 				EC0A025128D9AAAD00750F8F /* Poppins-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		EC0A025D28D9DBC300750F8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A024D28D9AA6600750F8F /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC0A025E28D9DCBE00750F8F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A023B28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +209,7 @@
 			files = (
 				EC0A024C28D8BC2F00750F8F /* TextView.swift in Sources */,
 				EC0A025A28D9BAB700750F8F /* SignUpView.swift in Sources */,
+				EC0A025C28D9D8FE00750F8F /* CustomTextField.swift in Sources */,
 				EC0A023E28D89AAB00750F8F /* MainView.swift in Sources */,
 				EC0A025828D9B7C000750F8F /* ButtonView.swift in Sources */,
 				EC0A023C28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift in Sources */,

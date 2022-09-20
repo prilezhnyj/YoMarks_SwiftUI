@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
-    @State private var facebookAuth = ""
     
-    
+    @State private var isTransition = false
+
     var body: some View {
         VStack(alignment: .center, spacing: 40) {
             Spacer()
@@ -118,10 +118,13 @@ struct MainView: View {
                     .modifier(CustomText(font: .custom("Poppins-SemiBold", size: 15), textColor: Color("Black")))
                 
                 Button {
-                    //
+                    isTransition.toggle()
                 } label: {
                     Text("Sign Up")
                         .modifier(CustomText(font: .custom("Poppins-SemiBold", size: 15), textColor: Color("Blue")))
+                }
+                .sheet(isPresented: $isTransition) {
+                    SignUpView()
                 }
                 .padding(.vertical)
             }
