@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		EC0A023C28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A023B28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift */; };
-		EC0A023E28D89AAB00750F8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A023D28D89AAB00750F8F /* ContentView.swift */; };
+		EC0A023E28D89AAB00750F8F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A023D28D89AAB00750F8F /* MainView.swift */; };
 		EC0A024028D89AAC00750F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0A023F28D89AAC00750F8F /* Assets.xcassets */; };
 		EC0A024328D89AAC00750F8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0A024228D89AAC00750F8F /* Preview Assets.xcassets */; };
+		EC0A024C28D8BC2F00750F8F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A024B28D8BC2F00750F8F /* TextView.swift */; };
+		EC0A025228D9AAAD00750F8F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC0A024E28D9AAAD00750F8F /* Poppins-Regular.ttf */; };
+		EC0A025328D9AAAD00750F8F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC0A024F28D9AAAD00750F8F /* Poppins-Medium.ttf */; };
+		EC0A025428D9AAAD00750F8F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC0A025028D9AAAD00750F8F /* Poppins-Bold.ttf */; };
+		EC0A025528D9AAAD00750F8F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC0A025128D9AAAD00750F8F /* Poppins-SemiBold.ttf */; };
+		EC0A025828D9B7C000750F8F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A025728D9B7C000750F8F /* ButtonView.swift */; };
+		EC0A025A28D9BAB700750F8F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A025928D9BAB700750F8F /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC0A023828D89AAB00750F8F /* YoMarks_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoMarks_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0A023B28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMarks_SwiftUIApp.swift; sourceTree = "<group>"; };
-		EC0A023D28D89AAB00750F8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC0A023D28D89AAB00750F8F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EC0A023F28D89AAC00750F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC0A024228D89AAC00750F8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC0A024B28D8BC2F00750F8F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		EC0A024E28D9AAAD00750F8F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		EC0A024F28D9AAAD00750F8F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		EC0A025028D9AAAD00750F8F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		EC0A025128D9AAAD00750F8F /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		EC0A025628D9AB7000750F8F /* YoMarks-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "YoMarks-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EC0A025728D9B7C000750F8F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		EC0A025928D9BAB700750F8F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +66,10 @@
 		EC0A023A28D89AAB00750F8F /* YoMarks_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EC0A025628D9AB7000750F8F /* YoMarks-SwiftUI-Info.plist */,
+				EC0A024D28D9AA6600750F8F /* Font */,
+				EC0A024928D8BC1C00750F8F /* View */,
 				EC0A023B28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift */,
-				EC0A023D28D89AAB00750F8F /* ContentView.swift */,
 				EC0A023F28D89AAC00750F8F /* Assets.xcassets */,
 				EC0A024128D89AAC00750F8F /* Preview Content */,
 			);
@@ -65,6 +82,36 @@
 				EC0A024228D89AAC00750F8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC0A024928D8BC1C00750F8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A023D28D89AAB00750F8F /* MainView.swift */,
+				EC0A025928D9BAB700750F8F /* SignUpView.swift */,
+				EC0A024A28D8BC2200750F8F /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC0A024A28D8BC2200750F8F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A024B28D8BC2F00750F8F /* TextView.swift */,
+				EC0A025728D9B7C000750F8F /* ButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC0A024D28D9AA6600750F8F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A025028D9AAAD00750F8F /* Poppins-Bold.ttf */,
+				EC0A024F28D9AAAD00750F8F /* Poppins-Medium.ttf */,
+				EC0A024E28D9AAAD00750F8F /* Poppins-Regular.ttf */,
+				EC0A025128D9AAAD00750F8F /* Poppins-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0A025228D9AAAD00750F8F /* Poppins-Regular.ttf in Resources */,
+				EC0A025328D9AAAD00750F8F /* Poppins-Medium.ttf in Resources */,
+				EC0A025428D9AAAD00750F8F /* Poppins-Bold.ttf in Resources */,
+				EC0A025528D9AAAD00750F8F /* Poppins-SemiBold.ttf in Resources */,
 				EC0A024328D89AAC00750F8F /* Preview Assets.xcassets in Resources */,
 				EC0A024028D89AAC00750F8F /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +188,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC0A023E28D89AAB00750F8F /* ContentView.swift in Sources */,
+				EC0A024C28D8BC2F00750F8F /* TextView.swift in Sources */,
+				EC0A025A28D9BAB700750F8F /* SignUpView.swift in Sources */,
+				EC0A023E28D89AAB00750F8F /* MainView.swift in Sources */,
+				EC0A025828D9B7C000750F8F /* ButtonView.swift in Sources */,
 				EC0A023C28D89AAB00750F8F /* YoMarks_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +324,15 @@
 				DEVELOPMENT_TEAM = 66STM82H6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YoMarks-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = YoMarks;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +340,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.botalov.YoMarks-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +360,15 @@
 				DEVELOPMENT_TEAM = 66STM82H6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YoMarks-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = YoMarks;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +376,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.botalov.YoMarks-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
